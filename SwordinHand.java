@@ -56,6 +56,10 @@ public static void main(String[] args) {
 	if (input == 1) {
 		String verse = verses[random.nextInt(verses.length)];
 		System.out.println("\n" + verse + " has been given.");
+		scanner.nextLine();
+		System.out.println("\nDid you find it?");
+		System.out.println("");
+		String answer = scanner.nextLine();
 		
 	//Displays a message to the user when they close the program.
 	}else if (input == 2){ 
